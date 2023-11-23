@@ -27,6 +27,7 @@ public class StudentManager {
     for (int i = 0; i < IDs.length; i++) {
         Student student = null;
         try {
+
             student = manager.find(IDs[i]);
         } catch (Ilegal e) {
             System.err.print(e.getMessage());

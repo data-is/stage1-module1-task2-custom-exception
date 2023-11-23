@@ -25,6 +25,7 @@ public enum Student {
     this.id = id;
     this.name = name;
     this.age = age;
+
   }
 
   public static Student getValueOf(long id) {

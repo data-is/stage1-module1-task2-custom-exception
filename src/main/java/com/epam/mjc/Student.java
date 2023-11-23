@@ -16,6 +16,7 @@ public enum Student {
   PETR(9, "Petr", 58),
   ARTUR(10, "Artur", 26);
 
+
   private long id;
   private String name;
   private int age;
@@ -32,6 +33,8 @@ public enum Student {
         .findFirst()
         .orElse(null);
   }
+
+
 
   public long getId() {
     return id;
